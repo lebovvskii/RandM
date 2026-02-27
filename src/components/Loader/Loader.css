@@ -1,0 +1,56 @@
+.loader {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.loader--large {
+  width: 100%;
+  min-height: 420px;
+}
+
+.loader--small {
+  gap: 8px;
+}
+
+.loader__image {
+  display: block;
+  animation: portal-spin 2.6s linear infinite;
+  transform-origin: center;
+}
+
+.loader__image--large {
+  width: 465px;
+  height: 475px;
+}
+
+.loader__image--small {
+  width: 101px;
+  height: 103px;
+}
+
+.loader__caption {
+  margin: 0;
+  color: #2d2d2d;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.loader--small .loader__caption {
+  font-size: 18px;
+}
+
+@keyframes portal-spin {
+  from {
+    transform: rotate(0deg) scale(1);
+  }
+  45% {
+    transform: rotate(160deg) scale(1.03);
+  }
+  to {
+    transform: rotate(360deg) scale(1);
+  }
+}

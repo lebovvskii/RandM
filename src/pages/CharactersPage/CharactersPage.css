@@ -1,0 +1,14 @@
+.characters-page {
+  padding-bottom: 48px;
+}
+
+.characters-page__brand-logo {
+  width: 100%;
+  max-width: 540px;
+  margin: 0 auto 38px;
+}
+
+.characters-page__small-loader {
+  margin-top: 24px;
+  text-align: center;
+}
