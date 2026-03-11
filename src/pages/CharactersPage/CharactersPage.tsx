@@ -1,5 +1,6 @@
 import logoImage from "../../assets/images/logo.png";
 import { Loader } from "../../components/Loader/Loader";
+
 import "./CharactersPage.css";
 
 export const CharactersPage = () => {
