@@ -2,8 +2,8 @@ import { type FocusEvent, type ReactNode, useMemo, useRef, useState } from "reac
 
 import classNames from "classnames";
 
+import SelectArrowIcon from "../../assets/icons/select-arrow.svg?react";
 import { useOutsideClick } from "../../hooks/useOutsideClick";
-import { SelectArrow } from "./SelectArrow";
 
 import "./Selector.css";
 
@@ -129,7 +129,7 @@ export const Selector = ({
         <span
           className={classNames("selector__arrow-wrap", { "selector__arrow-wrap--open": isOpen })}
         >
-          <SelectArrow />
+          <SelectArrowIcon aria-hidden="true" className="selector__arrow" />
         </span>
       </button>
 
