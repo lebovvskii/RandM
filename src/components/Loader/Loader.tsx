@@ -1,6 +1,8 @@
 import classNames from "classnames";
+
 import loaderImageLarge from "../../assets/images/loaders/loader-large.png";
 import loaderImageSmall from "../../assets/images/loaders/loader-small.png";
+
 import "./Loader.css";
 
 type LoaderSize = "small" | "large";

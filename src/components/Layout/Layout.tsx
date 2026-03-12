@@ -1,5 +1,7 @@
 import { Link, Outlet } from "react-router-dom";
+
 import Logo from "../../assets/icons/home.svg?react";
+
 import "./Layout.css";
 
 export const Layout = () => {
